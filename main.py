@@ -4,7 +4,7 @@ import jinja2
 import os
 
 # this initializes the jinja2 environment
-# this will be the same in every app that uses the jinja2 templating library 
+# this will be the same in every app that uses the jinja2 templating library
 the_jinja_env = jinja2.Environment(
   loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
   extensions=['jinja2.ext.autoescape'],
@@ -15,10 +15,10 @@ the_jinja_env = jinja2.Environment(
 # the handler section
 class MainHandler(webapp2.RequestHandler):
   def get(self):  # for a get request
-    self.response.write('Welcome')  # the response
+    self.response.write('Greetings Nigga')  # the response
 
 
-# the app configuration section	
+# the app configuration section
 app = webapp2.WSGIApplication([
   #('/', MainPage),
   ('/', MainHandler),
