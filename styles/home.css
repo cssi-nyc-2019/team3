@@ -1,0 +1,58 @@
+body{
+  text-align: center;
+  background-color: teal;
+}
+img{
+  background-color:transparent;
+}
+header{
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+header:hover {
+  background-image: url(https://cff2.earth.com/uploads/2019/02/17142849/Young-forests-are-storing-much-more-carbon-than-previously-realized-730x410.jpg);
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+p{
+  font-size: 1.5em;
+  font-family: 'Rancho', cursive;
+}
+h1{
+  font-size: 2em;
+  font-family: 'Itim', cursive;
+}
+#mac{
+  font-size: 2em;
+  font-family: 'Itim', cursive;
+}
+

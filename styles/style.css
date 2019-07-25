@@ -1,29 +1,22 @@
-
-
-body {
-  font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 2em;
-  background-image: url("Techer.png");
-  background-position: center;
-  background-size: cover;
+html{
+  background-image: url("/images/Techer.png");
+  background-size: 100%
 }
-
 h1 {
   font-style: italic;
   color: #373fff;
 }
-
 img {
   width: 40px;
   float: center;
-  background-color: 
+  background-color: #000080 
 }
 p {
-  color: #000080	
+  color: #000080  
 }
 #blue {
   color: white;
-  background-color: black;
+  background-color: transparent;
   border-radius: 8px;
   border: none;
   padding: 15px 35px;
@@ -33,12 +26,11 @@ p {
   font-size: 18px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-  display: block;
-  border-bottom: none
+  float: left;
 }
 #red {
   color: white;
-  background-color: black;
+  background-color: transparent;
   border-radius: 8px;
   border: none;
   padding: 15px 37px;
@@ -48,12 +40,11 @@ p {
   font-size: 18px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-  float: left; /* Float the buttons side by side */
-  display: block;
+  float: left;
 }
 #green {
   color: white;
-  background-color: black;
+  background-color: transparent;
   border-radius: 8px;
   border: none;
   padding: 15px 31px;
@@ -61,14 +52,13 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
-  float: left; /* Float the buttons side by side */
-  display: block;
+  float: left;
 }
 #black {
   color: white;
-  background-color: black;
+  background-color: transparent;
   border-radius: 8px;
   border: none;
   padding: 15px 25px;
@@ -76,10 +66,9 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
-  float: left; /* Float the buttons side by side */
-  display: block;
+  float: left; 
 }
 #blue:hover {
   background-color: #5f9ea0;
@@ -99,8 +88,7 @@ p {
 }
 #grey{
   color: white;
-  background-color: black;
-  width: 25px;
+  background-color: transparent;
   border-radius: 8px;
   border: none;
   padding: 15px 25px;
@@ -116,3 +104,4 @@ p {
 #grey:hover {
   background-color: turquoise;
   color: white;
+}
