@@ -33,6 +33,14 @@ class HomeHandler(webapp2.RequestHandler):
 	def get(self):
 		start_template=jinja_current_directory.get_template("/home.html")
 		self.response.write(start_template.render())
+class SurveyHandler(webapp2.RequestHandler):
+	def get(self):
+		start_template=jinja_current_directory.get_template("/survey.html")
+		self.response.write(start_template.render())
+class ResultsHandler(webapp2.RequestHandler):
+	def get(self):
+		start_template=jinja_current_directory.get_template("/survey.html")
+		self.response.write(start_template.render())
 
 # the app configuration section	
 app = webapp2.WSGIApplication([
@@ -42,4 +50,6 @@ app = webapp2.WSGIApplication([
   ('/game.html', GamingHandler),
   ('/job.html', JobHandler),
   ('/home.html', HomeHandler),
+  ('/survey.html', SurveyHandler),
+  ('/results.html', ResultsHandler),
   ], debug=True)
