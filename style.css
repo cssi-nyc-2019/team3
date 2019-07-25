@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+html{
+    background-image: url("https://pbs.twimg.com/media/EAL57moWkAUF07R?format=jpg&name=medium");
+    background-size: 100%
+=======
 
 
 body {
@@ -6,24 +11,36 @@ body {
   background-image: url("Techer.png");
   background-position: center;
   background-size: cover;
+>>>>>>> 552c0247538841c1f45b25440fc3ee245b6e794d
 }
 
 h1 {
   font-style: italic;
   color: #373fff;
 }
+<<<<<<< HEAD
+img {
+  width: 40px;
+  float: center;
+  background-color: #000080	
+=======
 
 img {
   width: 40px;
   float: center;
   background-color: 
+>>>>>>> 552c0247538841c1f45b25440fc3ee245b6e794d
 }
 p {
   color: #000080	
 }
 #blue {
   color: white;
+<<<<<<< HEAD
+  background-color: turquoise;
+=======
   background-color: black;
+>>>>>>> 552c0247538841c1f45b25440fc3ee245b6e794d
   border-radius: 8px;
   border: none;
   padding: 15px 35px;
@@ -31,6 +48,15 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
+<<<<<<< HEAD
+  webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  
+}
+#red {
+  color: white;
+  background-color: turquoise;
+=======
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   display: block;
@@ -39,6 +65,7 @@ p {
 #red {
   color: white;
   background-color: black;
+>>>>>>> 552c0247538841c1f45b25440fc3ee245b6e794d
   border-radius: 8px;
   border: none;
   padding: 15px 37px;
@@ -46,6 +73,15 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
+<<<<<<< HEAD
+  webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  
+}
+#green {
+  color: white;
+  background-color: turquoise;
+=======
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   float: left; /* Float the buttons side by side */
@@ -54,6 +90,7 @@ p {
 #green {
   color: white;
   background-color: black;
+>>>>>>> 552c0247538841c1f45b25440fc3ee245b6e794d
   border-radius: 8px;
   border: none;
   padding: 15px 31px;
@@ -61,6 +98,15 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
+<<<<<<< HEAD
+  webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  
+}
+#black {
+  color: white;
+  background-color: turquoise;
+=======
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   float: left; /* Float the buttons side by side */
@@ -69,6 +115,7 @@ p {
 #black {
   color: white;
   background-color: black;
+>>>>>>> 552c0247538841c1f45b25440fc3ee245b6e794d
   border-radius: 8px;
   border: none;
   padding: 15px 25px;
@@ -76,10 +123,16 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
+<<<<<<< HEAD
+  webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  
+=======
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   float: left; /* Float the buttons side by side */
   display: block;
+>>>>>>> 552c0247538841c1f45b25440fc3ee245b6e794d
 }
 #blue:hover {
   background-color: #5f9ea0;
@@ -97,6 +150,8 @@ p {
   background-color: #5f9ea0;
   color: white;
 }
+<<<<<<< HEAD
+=======
 #grey{
   color: white;
   background-color: black;
@@ -116,3 +171,4 @@ p {
 #grey:hover {
   background-color: turquoise;
   color: white;
+>>>>>>> 552c0247538841c1f45b25440fc3ee245b6e794d

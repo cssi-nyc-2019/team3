@@ -14,6 +14,11 @@ jinja_current_directory = jinja2.Environment(
 
 # the handler section
 class MainHandler(webapp2.RequestHandler):
+<<<<<<< HEAD
+  def get(self):  # for a get request
+    self.response.write('Greetings')  # the response
+
+=======
 	def get(self):  # for a get request
 		start_template=jinja_current_directory.get_template("/index.html")
 		self.response.write(start_template.render())
@@ -41,6 +46,7 @@ class ResultsHandler(webapp2.RequestHandler):
 	def get(self):
 		start_template=jinja_current_directory.get_template("/survey.html")
 		self.response.write(start_template.render())
+>>>>>>> 552c0247538841c1f45b25440fc3ee245b6e794d
 
 # the app configuration section	
 app = webapp2.WSGIApplication([
