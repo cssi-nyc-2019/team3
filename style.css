@@ -97,22 +97,4 @@ p {
   background-color: #5f9ea0;
   color: white;
 }
-#grey{
-  color: white;
-  background-color: black;
-  width: 25px;
-  border-radius: 8px;
-  border: none;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  float: left; /* Float the buttons side by side */
-  display: block;
-}
-#grey:hover {
-  background-color: turquoise;
-  color: white;
+
