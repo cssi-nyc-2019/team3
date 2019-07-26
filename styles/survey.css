@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Techer</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-    <style type="text/css">
-    	
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
  
 html {
@@ -110,31 +95,6 @@ nav a:hover::before {
 }
 
 img {
-	width:100%;
+  width:100%;
 }
 
-
-
-    </style>
-			
-  </head> 
-  <body>    
-      <header>
-    <div class="container">
-      <h1 class="logo"></h1>
-
-      <nav>
-        <ul>
-          <li><a href="survey.htmnl">Survey</a></li>
-          <li><a href="index.html">Main Page</a></li> 
-          <li><a href="kids.html">Kids</a></li>
-          <li><a href="job.html">Jobs</a></li>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="game.html">Gaming</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
- 
-  </body>
-</html>

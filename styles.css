@@ -1,0 +1,116 @@
+body {
+  font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 2em;
+  background-image: url("Techer.png");
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+img {
+  width: 40px;
+  float: center;
+  background-color: 
+}
+p {
+  color: #000080	
+}
+#blue {
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  border: none;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  display: block;
+  border-bottom: none
+}
+#red {
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  border: none;
+  padding: 15px 37px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  float: left; /* Float the buttons side by side */
+  display: block;
+}
+#green {
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  border: none;
+  padding: 15px 31px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  float: left; /* Float the buttons side by side */
+  display: block;
+}
+#black {
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  border: none;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  float: left; /* Float the buttons side by side */
+  display: block;
+}
+#blue:hover {
+  background-color: #5f9ea0;
+  color: white;
+}
+#red:hover {
+  background-color: #5f9ea0;
+  color: white;
+}
+#green:hover {
+  background-color: #5f9ea0;
+  color: white;
+}
+#black:hover {
+  background-color: #5f9ea0;
+  color: white;
+}
+#grey{
+  color: white;
+  background-color: black;
+  width: 25px;
+  border-radius: 8px;
+  border: none;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  float: left; /* Float the buttons side by side */
+  display: block;
+}
+#grey:hover {
+  background-color: turquoise;
+  color: white; 
