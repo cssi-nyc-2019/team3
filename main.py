@@ -57,11 +57,23 @@ class ResultsHandler(webapp2.RequestHandler):
 
 		if ans1 == "Home" and ans2 == "Home" and ans3 == "Home":
 			imput = "Check out the home section!"
-		elif ans1 == "Home" and ans2 == "Gaming" and ans3 == "Job":
+		elif ans1 == "Home" and ans2 == "Kids" and ans3 == "Jobs":
+			imput = "Check out the jobs section!"
+		elif ans1 == "Kids" and ans2 == "Home" and ans3 == "Kids":
+			imput = "Check out the Kids section!"
+		elif ans1 == "Gaming" and ans2 == "Jobs" and ans3 == "Jobs":
 			imput = "Check out the gaming section!"
-		elif ans1 == "Home" and ans2 == "Gaming" and ans3 == "Job":
+		elif ans1 == "Home" and ans2 == "Jobs" and ans3 == "Jobs":
 			imput = "Check out the gaming section!"
-		elif ans1 == "Job" and ans2 == "Job" and ans3 == "Job":
+		elif ans1 == "Home" and ans2 == "Gaming" and ans3 == "Jobs":
+			imput = "Check out the jobs section!"
+		elif ans1 == "Home" and ans2 == "Gaming" and ans3 == "Jobs":
+			imput = "Check out the gaming section!"
+		elif ans1 == "Kids" and ans2 == "Jobs" and ans3 == "Kids":
+			imput = "Check out the Kids section!"
+		elif ans1 == "Home" and ans2 == "Gaming" and ans3 == "Jobs":
+			imput = "Check out the gaming section!"
+		elif ans1 == "Jobs" and ans2 == "Jobs" and ans3 == "Jobs":
 			imput = "Check out the job section!"
 		elif ans1 == "Gaming" and ans2 == "Gaming"and ans3 == "Gaming":
 			imput ="Check out the gaming section!"

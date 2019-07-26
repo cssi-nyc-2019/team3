@@ -11,30 +11,105 @@
       <li><a href="home">Home</a></li>
       <li><a href="survey">Survey</a></li>
     </ul>
-    <style>
-      #meme-div{
-      width: 450px;
-      height: 450px;
-      background-size: 100%;
-      text-align: center;
-      position: relative;
+    <style type="text/css">
+        
+      a {
+        text-decoration: none;
       }
-      h2 {
+       
+      html {
+          background-image: url(techerFINAL.png);
+          background-size:100%; 
+      }
+
+      h1 {
+        font-style: italic;
+        color: #373fff;
+      }
+      img {
+        width: 40px;
+        float: center;
+        background-color: #000080 
+      }
+      p {
+        color: #000080  
+      }
+      body {
+        margin: 0;
+        background: #222;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 800;
+      }
+
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      header {
+        background: #55d6aa;
+      }
+
+      header::after {
+        content: '';
+        display: table;
+        clear: both;
+      }
+
+      .logo {
+        float: left;
+        padding: 10px 0;
+      }
+
+      nav {
+        float: right;
+      }
+
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      nav li {
+        display: inline-block;
+        margin-left: 70px;
+        padding-top: 23px;
+
+        position: relative;
+      }
+
+      nav a {
+        color: #444;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+      }
+
+      nav a:hover {
+        color: #000;
+      }
+
+      nav a::before {
+        content: '';
+        display: block;
+        height: 5px;
+        background-color: #444;
+
         position: absolute;
-        left: 0;
-        right: 0;
-        margin: 15px 0;
-        padding: 0 5px;
-        font-family: impact;
-        color: white;
-        text-shadow: 1px 1px black;
+        top: 0;
+        width: 0%;
+
+        transition: all ease-in-out 250ms;
       }
-      #line1 {
-         top: 0;
-       }
-      #line2 {
-         bottom: 0;
-       }
+
+      nav a:hover::before {
+        width: 100%;
+      }
+
+      img {
+        width:100%;
+      }
     </style>
   </head>
   <body>
