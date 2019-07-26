@@ -23,4 +23,143 @@
     <button id = "black" type="button"><a href = "game">Gaming</a></button> 
     <button id = "grey" type="button"><a href="survey">Take this survey to see what you need!</a></button>
   </body>
+</html><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Techer</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <style type="text/css">
+    	
+a {
+	text-decoration: none;
+}
+ 
+html {
+    background-image: url(techerFINAL.png);
+    background-size:100%;
+
+    
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+img {
+  width: 40px;
+  float: center;
+  background-color: #000080 
+}
+p {
+  color: #000080  
+}
+body {
+  margin: 0;
+  background: #222;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: #55d6aa;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+img {
+	width:100%;
+}
+
+
+
+    </style>
+			
+  </head> 
+  <body>    
+      <header>
+    <div class="container">
+      <h1 class="logo"></h1>
+
+      <nav>
+        <ul>
+          <li><a href="survey.html">Survey</a></li>
+          <li><a href="index.html">Main Page</a></li> 
+          <li><a href="kids.html">Kids</a></li>
+          <li><a href="job.html">Jobs</a></li>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="game.html">Gaming</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+ 
+  </body>
 </html>

@@ -46,3 +46,168 @@
 	    </form>  
 	</body>
 </html>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+		<link rel="stylesheet" type="text/css" href="/styles/survey.css">
+		<link href="https://fonts.googleapis.com/css?family=Itim|Rancho&display=swap" rel="stylesheet">
+    	<script src="/script/script.js"></script>
+
+    	<style type="text/css">
+    		a {
+	text-decoration: none;
+}
+html {
+	background-color:lightblue;
+	text-align:center;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+img {
+  width: 40px;
+  float: center;
+  background-color: #000080 
+}
+p {
+  color: #000080  
+}
+body {
+  margin: 0;
+  background: #222;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: #55d6aa;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+img {
+	width:100%;
+}
+#quiz-wrapper {
+	background-color:lightblue;
+}
+
+
+    	</style>
+	</head>
+	<body>
+  
+  <header>
+    <div class="container">
+      <h1 class="logo"></h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Main Page</a></li>	
+          <li><a href="kids.html">Kids</a></li>
+          <li><a href="job.html">Jobs</a></li>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="game.html">Gaming</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+ 
+		<form method="post" action="/results">
+			<div id="quiz-wrapper">
+		        <div class="question">
+		         	<p>Where is your technology going to used?</p> 
+		          	<select name="q1">
+						<option value="Home">Personal</option>
+						<option value="Jobs">Program</option>
+						<option value="Gaming">Fortnite</option>
+						<option value="Kids">Playtime</option>
+					</select>
+		          	<p>What type of tech would you like?</p>
+		          	<select name="q2">
+						<option value="Kids">Tablet</option>
+						<option value="Gaming">Phone</option>
+						<option value="Jobs">Laptop</option>
+						<option value="Home">Computer</option>
+					</select>
+		           	<p>Who is it for? </p>
+		          	<select name="q3">
+						<option value="Jobs">Adult</option>
+						<option value="Kids">Toddler</option>
+						<option value="Gaming">Teenager</option>
+						<option value="Home">Child</option>
+					</select>
+		        </div>
+		        <button id="submit-form" type="submit">Submit</button>
+	      	</div>
+	    </form>  
+
+
+	</body>
+</html>
