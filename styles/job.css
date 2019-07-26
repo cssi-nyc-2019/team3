@@ -1,5 +1,6 @@
 body{
 	text-align: center;
+	background-image: linear-gradient(yellow ,white, blue);
 }
 
 ul {
@@ -25,4 +26,11 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
+}
+
+#mac{
+	font-size: 2em;
+}
+p{
+	font-size: 1.5em;
 }

@@ -4,15 +4,14 @@
 		<title>Page Title</title>
 		<link rel="stylesheet" type="text/css" href="/styles/survey.css">
 		<link href="https://fonts.googleapis.com/css?family=Itim|Rancho&display=swap" rel="stylesheet">
-		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     	<script src="/script/script.js"></script>
 		<ul>
 	      <li><a href="http://localhost:8080/">Main Page</a></li>
-	      <li><a href="job.html">Jobs</a></li>
-	      <li><a href="kids.html">Kids</a></li>
-	      <li><a href="game.html">Gaming</a></li>
-	      <li><a href="home.html">Home</a></li>
-	      <li><a href="survey.html">Survey</a></li>
+	      <li><a href="jobs">Jobs</a></li>
+	      <li><a href="kids">Kids</a></li>
+	      <li><a href="game">Gaming</a></li>
+	      <li><a href="home">Home</a></li>
+	      <li><a href="survey">Survey</a></li>
 	    </ul>
 	    <h1>Welcome To the Survey! Where we Find out what you need!</h1>
 	</head>
@@ -20,20 +19,27 @@
 		<form method="post" action="/results">
 			<div id="quiz-wrapper">
 		        <div class="question">
-		         	<p>Where is your technology going to be for?</p> 
-		          	<div class="question">
-			          <br>
-			         <input type="text" name="firstname"><br>
-		          	</div>
+		         	<p>Where is your technology going to used?</p> 
+		          	<select name="q1">
+						<option value="Home">Personal</option>
+						<option value="Jobs">Program</option>
+						<option value="Gaming">Fortnite</option>
+						<option value="Kids">Playtime</option>
+					</select>
 		          	<p>What type of tech would you like?</p>
-		          	<div class="question">
-			          <br>
-			          <input type="text" name="firstname"><br>
-		          	</div>
+		          	<select name="q2">
+						<option value="Kids">Tablet</option>
+						<option value="Gaming">Phone</option>
+						<option value="Jobs">Laptop</option>
+						<option value="Home">Computer</option>
+					</select>
 		           	<p>Who is it for? </p>
-		          	<div class="question">
-			          <input type="text" name="firstname"><br>
-		          	</div>
+		          	<select name="q3">
+						<option value="Jobs">Adult</option>
+						<option value="Kids">Toddler</option>
+						<option value="Gaming">Teenager</option>
+						<option value="Home"">Child</option>
+					</select>
 		        </div>
 		        <button id="submit-form" type="submit">Submit</button>
 	      	</div>

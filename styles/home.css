@@ -1,6 +1,6 @@
 body{
   text-align: center;
-  background-color: teal;
+   background-image: linear-gradient(yellow ,white, blue);
 }
 img{
   background-color:transparent;
